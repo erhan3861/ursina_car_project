@@ -1,6 +1,7 @@
 from ursina import *
 from ursina.shaders import lit_with_shadows_shader
 
+# default shader for all entities
 Entity.default_shader = lit_with_shadows_shader
 
 class Car(Entity):
